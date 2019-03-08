@@ -1,16 +1,17 @@
 body {
     margin: 0;
     height: 100vh;
-
 }
 
 
 main {
     margin: 0;
-
 }
 
-
+/*Wrapper */
+.wrapper {
+    min-height: 100vh;
+}
 /* header */
 
 header {
