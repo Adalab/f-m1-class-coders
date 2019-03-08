@@ -236,13 +236,14 @@ h2 {
      line-height: 1.88;
      list-style: none;
      display: flex;
-     justify-content: space-between;
+     justify-content: center;
      margin: 0 98px 0 98px;
      padding: 0;
     
  }
  .redes i {
     color: #099d8d;
+    margin: 0 15px;
  }
  
  .comun { 
