@@ -55,7 +55,7 @@ h1 {
     margin: 0;
 }
 
-a {
+.menu__link a {
     color: white;
     text-decoration: none;
 }
@@ -239,7 +239,10 @@ h2 {
      justify-content: space-between;
      margin: 0 98px 0 98px;
      padding: 0;
-     color: #099d8d;
+    
+ }
+ .redes i {
+    color: #099d8d;
  }
  
  .comun { 
