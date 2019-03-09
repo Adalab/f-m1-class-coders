@@ -186,9 +186,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     height: 2225px;
-     background-color: #ffffff;
-     margin-bottom:275px;
+    background-color: #ffffff;
  }
  
  .quienes {
@@ -299,4 +297,23 @@ footer {
     margin: 30px 0 45px;
     width: 115.9px;
     height: 45px;
+}
+
+@media all and (min-width:760px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu__list {
+        display:flex;
+        justify-content: space-between;
+        background: #099d8d;
+        width: 400px;
+    }
+    footer {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
