@@ -2,8 +2,6 @@ body {
     margin: 0;
     height: 100vh;
 }
-
-
 main {
     margin: 0;
 }
@@ -12,8 +10,8 @@ main {
 .wrapper {
     min-height: 100vh;
 }
-/* header */
 
+/* header */
 header {
     justify-content: space-between;
     flex-wrap: wrap; 
@@ -26,7 +24,6 @@ header {
     background-color: #099d8d;
     margin: none;
 }
-
 h1 {
     text-align: center;
     padding: 15px 80px 15px 80px;
@@ -40,7 +37,6 @@ h1 {
     font-family: 'Rubik';
     margin: 0;
 }
-
 .menu__list {
     display: flex;
     flex-direction: row;
@@ -54,12 +50,10 @@ h1 {
     background-color: #14d9c4;
     margin: 0;
 }
-
 .menu__link a {
     color: white;
     text-decoration: none;
 }
-
 .menu__link {
     display: block;    
     text-align: center;
@@ -78,7 +72,6 @@ h1 {
 }   
 
 /* Hero */
-
 .imagen {
     background-image: url(../images/hero.jpg);
     height: 316px;
@@ -105,7 +98,6 @@ h1 {
     text-align: center;
     transform: translateY(45px);
 }
-
 h2 {
     font-family: 'Rubik';
     font-size: 24px;
@@ -116,7 +108,6 @@ h2 {
     letter-spacing: normal;
     text-align: center;
 }
-
 .descripcion {
     display: flex;
     flex-direction: column;
@@ -130,7 +121,6 @@ h2 {
     padding-top: 45px;
     margin-bottom: 15px;
 }
-
 .parrafo {
     font-family: 'Open Sans'sans-serif;
     font-size: 16px;
@@ -148,7 +138,6 @@ h2 {
     border-top-color: white;
     border-width: 20px 20px;
 }
-
 .cualidades {
     background-color: rgba(184,184,185, 0.2);
     display: flex;
@@ -156,7 +145,6 @@ h2 {
     align-items: center;
     padding-bottom: 20px;
 }
-
 .for_deb {
     width: 290px;
     height: 45px;
@@ -171,7 +159,6 @@ h2 {
     color: #099d8d;
     margin: 0;
 }
-
 .debilidades {
     margin-top: 20px;
 }
@@ -180,7 +167,6 @@ h2 {
 }
 
 /* Quienes somos */
-
 .personas {
     display: flex;
     flex-direction: column;
@@ -188,7 +174,6 @@ h2 {
     align-items: center;
     background-color: #ffffff;
  }
- 
  .quienes {
      height: 45px;
      font-family: 'Rubik', sans-serif;
@@ -208,14 +193,12 @@ h2 {
      padding: 0;
      justify-content: space-between;
  }
- 
  .perfil img {
      width: 180px;
      height: 180px;
      border-radius: 4px;
      border: solid 5px rgba(0,0,0,0.08);
  }
- 
  .nombre {
      display: flex;
      font-family: 'Open Sans', sans-serif;
@@ -226,8 +209,6 @@ h2 {
      color: var(--black);
      justify-content: center;
  }
- 
- 
  .redes {
  
      height: 30px;
@@ -244,7 +225,6 @@ h2 {
     color: #099d8d;
     margin: 0 15px;
  }
- 
  .comun { 
      padding-bottom: 50px; 
  }
@@ -252,16 +232,22 @@ h2 {
 /* Footer */
 
 footer {
+    width: 100%;
+    border-top: 1px solid #b8b8b9;
+}
+
+.footer_big {
+    display: none;
+}
+.footer_small {
     position: relative;
     bottom: 0;
-    width: 100%;
     height: 250px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid #b8b8b9;
 }
 
 .copyright {
@@ -320,9 +306,34 @@ footer {
         position: relative;
         left: -20%;
     }
-    footer {
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
+    .footer_small {
+        display:none;
+       
+    }
+    .footer_big {
+        height: 170px;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+    .left {
+        margin: 0 0 60px 45px;
+    }
+    .copyright {
+        margin-bottom: 0px;
+    }
+    .logo_bottom {
+        margin-top: 20px;
+    }
+    .menu_bottom {
+        list-style: none;
+        height: 90px;
+        margin: 24px 45px 56px 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        align-items: flex-end;
+        opacity: 0.75;
     }
 }
