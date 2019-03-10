@@ -317,6 +317,7 @@ footer {
         background: #099d8d;
         width: 400px;
     }
+<<<<<<< HEAD
     .footer_small {
         display:none;
        
@@ -348,5 +349,20 @@ footer {
          opacity: 0.75;
      }
 
+=======
+    .claim {
+        opacity: 0.8;
+        width: 400px;
+        height: 80px; 
+        text-align: left;
+        transform: translateY(0px);
+        position: relative;
+        left: -20%;
+    }
+    footer {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+>>>>>>> ea1eb72826675793ed2ef55b2c4e1436e8214a08
     }
     
