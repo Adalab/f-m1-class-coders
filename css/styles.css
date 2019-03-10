@@ -219,7 +219,6 @@ h2 {
      justify-content: center;
      margin: 0 98px 0 98px;
      padding: 0;
-    
  }
  .redes i {
     color: #099d8d;
@@ -230,12 +229,10 @@ h2 {
  }
  
 /* Footer */
-
 footer {
     width: 100%;
     border-top: 1px solid #b8b8b9;
 }
-
 .footer_big {
     display: none;
 }
@@ -249,7 +246,6 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
 .copyright {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -258,7 +254,6 @@ footer {
     line-height: 1.43;
     color: #b8b8b9;
 }
-
 .menu_bottom {
     list-style: none;
     height: 60px;
@@ -270,7 +265,6 @@ footer {
     align-items: center;
 }
 .menu_bottom a {
-
     text-decoration: none;
     text-align: center;
     font-family: 'open sans';
@@ -297,18 +291,8 @@ footer {
         background: #099d8d;
         width: 400px;
     }
-    .claim {
-        opacity: 0.8;
-        width: 400px;
-        height: 80px; 
-        text-align: left;
-        transform: translateY(0px);
-        position: relative;
-        left: -20%;
-    }
     .footer_small {
         display:none;
-       
     }
     .footer_big {
         height: 170px;
@@ -335,5 +319,14 @@ footer {
         justify-content: space-between;
         align-items: flex-end;
         opacity: 0.75;
+    }
+    .claim {
+        opacity: 0.8;
+        width: 400px;
+        height: 80px; 
+        text-align: left;
+        transform: translateY(0px);
+        position: relative;
+        left: -20%;
     }
 }
