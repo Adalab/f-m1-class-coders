@@ -23,6 +23,9 @@ header {
     opacity: 0.95;
     background-color: #099d8d;
     margin: none;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 h1 {
     text-align: center;
