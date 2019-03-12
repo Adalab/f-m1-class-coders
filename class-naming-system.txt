@@ -1,0 +1,71 @@
+page
+    header
+        header__title
+        header__menu
+            header__menu__list
+            header__menu__item
+            header__menu__item__link
+
+    hero
+        hero__image
+        hero__claim
+    
+    team
+        team__title
+        team__text
+    
+    qualities
+        qualities__triangle
+        qualities__strengths
+            qualities__strengths__title
+            qualities__strengths__text
+        qualities__weaknesses
+            qualities__weaknesses__title
+            qualities__weaknesses__text
+    
+    people
+        people__title
+        people__list
+            people__list__shared
+            people__list__ana
+                people__list__ana__image
+                people__list__ana__title
+                people__list__ana__text
+
+            people__list__iris
+                people__list__iris__image
+                people__list__iris__title
+                people__list__iris__text
+            
+            people__list__libertad
+                people__list__libertad__image
+                people__list__libertad__title
+                people__list__libertad__text
+            
+            people__list__meg
+                people__list__meg__image
+                people__list__meg__title
+                people__list__meg__text
+                
+            people__list__sara
+                people__list__sara__image
+                people__list__sara__title
+                people__list__sara__text
+
+            people__list__social
+            people__list__social__twitter
+            people__list__social__linked
+            people__list__social__github
+            people__list__social__email
+
+    footer
+        footer__copyright
+        footer__menu
+            footer__menu__item
+        footer__logo
+
+
+        
+
+
+            
