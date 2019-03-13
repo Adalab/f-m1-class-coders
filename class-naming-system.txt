@@ -13,15 +13,13 @@ page
     team
         team__title
         team__text
-    
-    qualities
-        qualities__triangle
-        qualities__strengths
-            qualities__strengths__title
-            qualities__strengths__text
-        qualities__weaknesses
-            qualities__weaknesses__title
-            qualities__weaknesses__text
+        team__triangle
+        team__strengths
+            team__strengths__title
+            team__strengths__text
+        team__weaknesses
+            team__weaknesses__title
+            team__weaknesses__text
     
     people
         people__title
