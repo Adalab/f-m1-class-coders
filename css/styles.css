@@ -324,6 +324,43 @@ footer {
         margin-top: 0;
     }
     
+    /*quienes somos*/
+    .comun {
+        margin: 0 44px;
+        display: flex;
+        
+    }
+    .info {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        margin:0;
+        box-sizing: border-box;
+    }
+    .nombre {
+        margin: 0;
+        padding: 0 29px;
+        height: 45px;
+    }
+    
+    .redes{
+        text-align: left;
+        margin: 0;
+        width: 124px;
+        height: 30px;
+        padding: 0 58px;
+    }
+    .info .parrafo {
+        text-align: left;
+        padding: 0 29px;
+    }
+  
+     .perfil {
+        width: 205px;
+     }
+     
+     }
     /*footer*/
     footer {
         height: 170px;
