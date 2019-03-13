@@ -77,12 +77,19 @@ h1 {
 
 /* Hero */
 .imagen {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/hero_grupo2.jpg) ;
     height: 316px;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+
+
+    
+   
+    
     }
 .claim {
     display: inline-block;
