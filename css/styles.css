@@ -102,6 +102,11 @@ h1 {
     text-align: center;
     transform: translateY(45px);
 }
+#eq {
+    position: absolute;
+    top: 257px;
+}
+
 h2 {
     font-family: 'Rubik';
     font-size: 24px;
@@ -117,6 +122,8 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    /*margin-top: 15px;*/
+
 }
 .equipo {
     width: 89px;
@@ -177,6 +184,7 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
+    margin-top: 15px;
  }
  .quienes {
      height: 45px;
@@ -187,6 +195,7 @@ h2 {
      color: #099d8d;
      text-align: center;
      padding: 20px 0 20px 0;
+    
  }
  .nosotras {
      list-style: none;
@@ -311,6 +320,10 @@ footer {
         position: relative;
         left: -20%;
     }
+    .equipo {
+        margin-top: 0;
+    }
+    
     /*footer*/
     footer {
         height: 170px;
