@@ -1,4 +1,4 @@
-body {
+gulpbody {
     margin: 0;
     height: 100vh;
 }
@@ -337,7 +337,7 @@ footer {
     /*quienes somos*/
 
     .comun {
-        margin: 0;
+        margin: 0 44px;
         display: flex;
         
     }
@@ -360,7 +360,7 @@ footer {
         margin: 0;
         width: 124px;
         height: 30px;
-        padding: 0 58px;
+        padding: 0 38px;
     }
 
     .info .parrafo {
@@ -378,12 +378,19 @@ footer {
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: nowrap;
+        text-align: right;
     }
 
-    .comun.info:nth-child(2n){
-        display: flex;
+    .comun:nth-child(2n) p {
+        background:pink;
         text-align: right;
-        justify-content: flex-end;
+    }
+
+    .comun:nth-child(2n) .info {
+        background:pink;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
      
     /*footer*/
