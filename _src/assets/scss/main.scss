@@ -440,6 +440,28 @@ footer {
 }
 
 @media all and (min-width:1200px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 138px 0 142px;
+        box-sizing: border-box;
+    }
+    .teamname {
+        margin: 0;
+        padding: 15px 0;
+    }
+    .menu__list {
+        display:flex;
+        justify-content: space-between;
+        background: #099d8d;
+        padding: 0;
+    }
+    .menu__item {
+        padding: 9px;
+    }
+
+
     footer {
         height: 161px;
     }
