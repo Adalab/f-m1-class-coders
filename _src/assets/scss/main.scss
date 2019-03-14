@@ -1,4 +1,4 @@
-gulpbody {
+body {
     margin: 0;
     height: 100vh;
 }
@@ -27,7 +27,7 @@ header {
     width: 100%;
     z-index: 999;
 }
-h1 {
+.teamname {
     text-align: center;
     padding: 15px 80px 15px 80px;
     font-size: 16px;
@@ -193,7 +193,7 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    margin-top: 15px;
+    margin: 15px 15px 0 15px; 
  }
  .quienes {
      height: 45px;
@@ -313,7 +313,9 @@ footer {
     .header {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
+        margin: 0 45px;
+        box-sizing: border-box;
     }
     .menu__list {
         display:flex;
