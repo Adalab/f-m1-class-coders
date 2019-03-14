@@ -31,7 +31,7 @@ header {
     text-align: center;
     padding: 15px 80px 15px 80px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     letter-spacing: normal;
@@ -64,7 +64,7 @@ header {
     padding: 0;
     font-family: 'Rubik';
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     font-stretch: normal;
     line-height: 2;
@@ -85,12 +85,7 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-
-
-    
-   
-    
-    }
+}
 .claim {
     display: inline-block;
     box-sizing: border-box;
@@ -204,6 +199,7 @@ h2 {
      color: #099d8d;
      text-align: center;
      padding: 20px 0 20px 0;
+     
     
  }
  .nosotras {
@@ -230,6 +226,7 @@ h2 {
      text-align: center;
      color: var(--black);
      justify-content: center;
+     font-weight: normal;
  }
  .redes {
  
@@ -349,6 +346,7 @@ footer {
     .comun {
         margin: 0 44px;
         display: flex;
+        justify-content: flex-start;
         
     }
     .info {
@@ -359,6 +357,7 @@ footer {
         margin:0;
         box-sizing: border-box;
     }
+
     .nombre {
         margin: 0;
         padding: 0 29px;
@@ -376,6 +375,7 @@ footer {
     .info .parrafo {
         text-align: left;
         padding: 0 29px;
+        width: 500px;
     }
   
     .perfil img{
@@ -392,12 +392,10 @@ footer {
     }
 
     .comun:nth-child(2n) p {
-        background:pink;
-        text-align: right;
+       text-align: right;
     }
 
     .comun:nth-child(2n) .info {
-        background:pink;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
@@ -461,7 +459,62 @@ footer {
         padding: 9px;
     }
 
+    /* quienes somos*/
+    .comun {
+        margin: 0 138px;
+        display: flex;
+        
+    }
+    .info {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        margin:0;
+        box-sizing: border-box;
+    }
+    .nombre {
+        margin: 0;
+        padding: 0 29px;
+        height: 45px;
+    }
+    
+    .redes{
+        text-align: left;
+        margin: 0;
+        width: 124px;
+        height: 30px;
+        padding: 0 38px;
+    }
 
+    .info .parrafo {
+        text-align: left;
+        padding: 0 29px;
+    }
+  
+    .perfil img{
+        width: 278px;
+        height: 278px;
+    }
+
+    .comun:nth-child(2n){
+        margin: 0 44px;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        text-align: right;
+    }
+
+    .comun:nth-child(2n) p {
+       text-align: right;
+    }
+
+    .comun:nth-child(2n) .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+     
     footer {
         height: 161px;
     }
