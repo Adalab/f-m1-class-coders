@@ -370,6 +370,12 @@ footer {
         flex-direction: row-reverse;
         flex-wrap: nowrap;
     }
+
+    .comun.info:nth-child(2n){
+        display: flex;
+        text-align: right;
+        justify-content: flex-end;
+    }
      
     /*footer*/
     footer {
