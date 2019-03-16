@@ -13,7 +13,10 @@ page
     team
         team__title
         team__text
+        team__characteristics
+        team__triangle__wrapper
         team__triangle
+        team__section__content
         team__strengths
             team__strengths__title
             team__strengths__text
@@ -24,37 +27,62 @@ page
     people
         people__title
         people__list
-            people__list__shared
-            people__list__ana
-                people__list__ana__image
-                people__list__ana__title
-                people__list__ana__text
+            people__shared ana
+                people__list__image
+                people__list__info
+                    people__list__title
+                    people__list__text
+                    people__list__social
+                        people__list__social__twitter
+                        people__list__social__linked
+                        people__list__social__github
+                        people__list__social__email
 
-            people__list__iris
-                people__list__iris__image
-                people__list__iris__title
-                people__list__iris__text
+            people__shared iris
+                people__list__image
+                people__list__info
+                people__list__title
+                people__list__text
+                people__list__social
+                        people__list__social__twitter
+                        people__list__social__linked
+                        people__list__social__github
+                        people__list__social__email
             
-            people__list__libertad
-                people__list__libertad__image
-                people__list__libertad__title
-                people__list__libertad__text
-            
-            people__list__meg
-                people__list__meg__image
-                people__list__meg__title
-                people__list__meg__text
-                
-            people__list__sara
-                people__list__sara__image
-                people__list__sara__title
-                people__list__sara__text
+            people__shared libertad
+                people__list__image
+                people__list__info
+                people__list__title
+                people__list__text
+                people__list__social
+                        people__list__social__twitter
+                        people__list__social__linked
+                        people__list__social__github
+                        people__list__social__email
 
-            people__list__social
-            people__list__social__twitter
-            people__list__social__linked
-            people__list__social__github
-            people__list__social__email
+            people__shared meg
+                people__list__image
+                people__list__info
+                people__list__title
+                people__list__text
+                people__list__social
+                        people__list__social__twitter
+                        people__list__social__linked
+                        people__list__social__github
+                        people__list__social__email
+
+            people__shared sara
+                people__list__image
+                people__list__info
+                people__list__title
+                people__list__text
+                people__list__social
+                        people__list__social__twitter
+                        people__list__social__linked
+                        people__list__social__github
+                        people__list__social__email
+
+           
 
     footer
         footer__copyright

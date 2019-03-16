@@ -1,0 +1,196 @@
+
+.people {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 15px 15px 0 15px; 
+ }
+
+.people__title {
+    height: 45px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.88;
+    color: #099d8d;
+    text-align: center;
+    padding: 20px 0 20px 0; 
+ }
+.people__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    justify-content: space-between;
+ }
+.people__list__image img {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    border: solid 5px rgba(0,0,0,0.08);
+ }
+.people__list__title {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+    justify-content: center;
+    font-weight: normal;
+ }
+.people__list__social {
+    height: 30px;
+    text-align: center;
+    line-height: 1.88;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 98px 0 98px;
+    padding: 0;
+    color: #099d8d;
+ }
+ 
+.people__list__social__linkedin::before {
+    content: "·";
+ }
+.people__list__social__github::before {
+    content: "·";
+}
+.people__list__social__email::before {
+    content: "·";
+}
+
+.people__list__social i {
+    color: #099d8d;
+    margin: 0 10px;
+}
+ 
+.people__shared { 
+    padding-bottom: 50px; 
+}
+ 
+
+@media all and (min-width: 768px) {
+    .people__shared {
+        margin: 0 44px;
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    .people__list__info {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        margin:0;
+        box-sizing: border-box;
+    }
+
+    .people__list__title {
+        margin: 0;
+        padding: 0 29px;
+        height: 45px;
+    }
+    
+    .people__list__social{
+        text-align: left;
+        margin: 0;
+        width: 124px;
+        height: 30px;
+        padding: 0 38px;
+    }
+
+    .people__list__info .people__list__text {
+        text-align: left;
+        padding: 0 29px;
+        width: 500px;
+    }
+  
+    .people__list__image img{
+        width: 205px;
+        height: 205px;
+    }
+
+    .people__shared:nth-child(2n){
+        margin: 0 44px;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        text-align: right;
+    }
+
+    .people__shared:nth-child(2n) p {
+       text-align: right;
+    }
+
+    .people__shared:nth-child(2n) .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .people__shared {
+        margin: 0 138px;
+        display: flex;
+        
+    }
+    .people__list__info {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        margin:0;
+        box-sizing: border-box;
+    }
+    .people__list__title {
+        margin: 0;
+        padding: 0 29px;
+        height: 45px;
+    }
+    
+    .people__list__social{
+        text-align: left;
+        margin: 0;
+        width: 124px;
+        height: 30px;
+        padding: 0 38px;
+    }
+
+    .people__list__info .people__list__text {
+        text-align: left;
+        padding: 0 29px;
+    }
+  
+    .people__list__image img{
+        width: 278px;
+        height: 278px;
+    }
+
+    .people__shared:nth-child(2n){
+        margin: 0 44px;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        text-align: right;
+    }
+
+    .people__shared:nth-child(2n) p {
+       text-align: right;
+    }
+
+    .people__shared:nth-child(2n) .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+     
+
+}

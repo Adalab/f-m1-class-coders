@@ -1,0 +1,44 @@
+.hero__image {
+    background-image: url(../../images/hero_grupo2.jpg) ;
+    height: 316px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero__claim {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: white;
+    width: 95%;
+    height: 80px; 
+    padding: 14px 15px 16px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    transform: translateY(45px);
+}
+#eq {
+    position: absolute;
+    top: 257px;
+}
+
+@media all and (min-width:768px) {
+    .claim {
+        opacity: 0.8;
+        width: 400px;
+        height: 80px; 
+        text-align: left;
+        transform: translateY(0px);
+        position: relative;
+        left: -20%;
+    }
+}
