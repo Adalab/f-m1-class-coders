@@ -7,8 +7,15 @@ main {
 }
 
 
+<<<<<<< HEAD
 /* <------------- HEADER -------------> */
     @import 'core/header';
+=======
+/* header */
+/* Header*/
+
+    @import "_header.scss";
+>>>>>>> 07653fd4ddcb57ea6d09ba5d32e504c2f85fd3d3
 
 /* <------------- HERO -------------> */
     @import 'core/hero';

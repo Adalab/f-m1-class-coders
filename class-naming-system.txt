@@ -13,6 +13,7 @@ page
     team
         team__title
         team__text
+
         team__characteristics
         team__triangle__wrapper
         team__triangle
@@ -20,13 +21,14 @@ page
         team__strengths
             team__strengths__title
             team__strengths__text
-        team__weaknesses
+        team__weaknesses*
             team__weaknesses__title
             team__weaknesses__text
     
     people
         people__title
         people__list
+
             people__shared ana
                 people__list__image
                 people__list__info
@@ -41,9 +43,9 @@ page
             people__shared iris
                 people__list__image
                 people__list__info
-                people__list__title
-                people__list__text
-                people__list__social
+                    people__list__title
+                    people__list__text
+                    people__list__social
                         people__list__social__twitter
                         people__list__social__linked
                         people__list__social__github
@@ -52,20 +54,20 @@ page
             people__shared libertad
                 people__list__image
                 people__list__info
-                people__list__title
-                people__list__text
-                people__list__social
-                        people__list__social__twitter
-                        people__list__social__linked
-                        people__list__social__github
-                        people__list__social__email
+                    people__list__title
+                    people__list__text
+                    people__list__social
+                            people__list__social__twitter
+                            people__list__social__linked
+                            people__list__social__github
+                            people__list__social__email
 
             people__shared meg
                 people__list__image
                 people__list__info
-                people__list__title
-                people__list__text
-                people__list__social
+                    people__list__title
+                    people__list__text
+                    people__list__social
                         people__list__social__twitter
                         people__list__social__linked
                         people__list__social__github
@@ -74,9 +76,9 @@ page
             people__shared sara
                 people__list__image
                 people__list__info
-                people__list__title
-                people__list__text
-                people__list__social
+                    people__list__title
+                    people__list__text
+                    people__list__social
                         people__list__social__twitter
                         people__list__social__linked
                         people__list__social__github
@@ -87,7 +89,7 @@ page
     footer
         footer__copyright
         footer__menu
-            footer__menu__item
+            footer__menu__list
         footer__logo
 
 
