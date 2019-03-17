@@ -7,30 +7,24 @@ main {
 }
 
 
-<<<<<<< HEAD
 /* <------------- HEADER -------------> */
-    @import 'core/header';
-=======
-/* header */
-/* Header*/
+    @import '_header.scss';
 
-    @import "_header.scss";
->>>>>>> 07653fd4ddcb57ea6d09ba5d32e504c2f85fd3d3
 
 /* <------------- HERO -------------> */
-    @import 'core/hero';
+    @import '_hero.scss';
 
 /* <------------- TEAM -------------> */
-    @import 'core/team';
+    @import '_team.scss';
 
 /*En TEAM van a salir muchos fallos porque había varias secciones con el mismo
 nombre que han pasado a llamarse de forma distinta*/ 
 
 /* <------------- PEOPLE -------------> */
-    @import 'core/people';
+    @import '_people.scss';
 
 /* <------------- FOOTER -------------> */
-    @import 'core/footer';
+    @import '_footer.scss';
 
 
 /* < MEDIA QUERIES */
@@ -38,9 +32,3 @@ nombre que han pasado a llamarse de forma distinta*/
     /*REVISAR LAS MEDIA Y VER SI ESTÁN BIEN DONDE ESTÁN*/
 
 
-@media all and (min-width:1200px) {
-  
-
-    /* quienes somos*/
-    
-}
