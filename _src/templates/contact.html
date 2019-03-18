@@ -8,7 +8,7 @@
     
     <title>Document</title>
 </head>
-<body>
+<body class="page__contact">
     <section class="contact__hero">
         <div class="contact__hero__image"></div>
     </section>
@@ -19,32 +19,29 @@
     <div class="contact__form">
         <fieldset>
             <form action="" method="post">
-                <div class="contact__input">
+                <div class="contact">
                     <div class="contact__name">
-                        <label class="contact__input__label" for="fullName">Nombre completo <span class="star">*</span></label>
-                        <input class="contact__input__input" type="text" id="fullName" name="fullName" placeholder="Nombre..." tabindex="0" required/>
+                        <label class="contact__label__name" for="fullName">Nombre completo <span class="star">*</span></label>
+                        <input class="contact__input" type="text" id="fullName" name="fullName" placeholder="Nombre..." tabindex="0" required/>
                     </div>
-                </div>
-                <div class="contact__input">
+                
                     <div class="contact__email">
-                        <label class="contact__input__label" for="email">Email <span class="star">*</span></label>
-                        <input class="contact__input__input" type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" tabindex="0" required/>
+                        <label class="contact__label__email" for="email">Email <span class="star">*</span></label>
+                        <input class="contact__input" type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" tabindex="0" required/>
                     </div>
-                </div>
-                <div class="contact__input">
+                
                     <div class="contact__number">
-                        <label class="contact__input__label" for="telephone">Teléfono</label>
-                        <input class="contact__input__input" type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" tabindex="0" required/>
+                        <label class="contact__label__number" for="telephone">Teléfono</label>
+                        <input class="contact__input" type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" tabindex="0" required/>
                     </div>
-                </div> 
-                <div class="contact__input">
+                
                     <div class="contact__texarea">
-                        <label class="contact__textarea__label" for="comments">Mensaje</label>
-                        <textarea id="comments" name="comments" rows="8" cols="80"></textarea>
+                        <label class="contact__label__textarea" for="comments">Mensaje<span class="star">*</span></label>
+                        <textarea id="comments" name="comments" rows="8" cols="45"></textarea>
+                    </div>
+                    <div class="contact__button">
+                        <button class="contact__button__submit" type="submit" value="submit">Enviar</button>
                     <div>
-                </div>
-                <div class="contact__input">
-                    <button class="contact__button" type="submit" value="submit">Enviar</button>
                 </div>
             </form>
         </fieldset>

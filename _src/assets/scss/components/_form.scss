@@ -1,3 +1,8 @@
+.page__contact {
+    width: 320px;
+    margin: 0;
+}
+
 .contact__hero__image {
     background-image: url(../images/contact.jpeg) ;
     height: 316px;
@@ -37,3 +42,113 @@
     text-align: center;
 }
 
+/*Formulario*/
+
+.contact {
+    width: 290px;
+    height: 100vh;
+  }
+
+  .star {
+      color: #14d9c4;
+  }
+
+  .contact__label {
+      height: 19px;
+      margin-bottom: 7px;
+      font-family: OpenSans;
+      font-family: OpenSans;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color:#54585a;
+    
+    }
+  .contact__label__name{
+      width: 131px;
+      margin-bottom: 7px;
+      font-family: OpenSans;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color:#54585a;
+
+  }
+
+  .contact__label__email{
+    width: 48px;
+    margin-bottom: 7px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color:#54585a;
+}
+
+.contact__label__number{
+    width: 57px;
+    margin-bottom: 7px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color:#54585a
+}
+
+.contact__label__textarea{
+    width: 67px;
+    margin-bottom: 7px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color:#54585a
+}
+.contact__button {
+    width: 290px;
+    height: 45px;
+    
+}
+
+.contact__input {
+    width: 290px;
+    height: 45px;
+    margin-bottom: 13px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #b8b8b9;
+    border: solid 1px #b8b8b9;
+}
+
+.contact__button {
+    width: 290px;
+    height: 45px;
+    margin-bottom: 30px
+}
+
+.contact__button__submit {
+    width: 290px;
+    height: 45px;
+    border-radius: 4px;
+    background-color: #099d8d;
+}
