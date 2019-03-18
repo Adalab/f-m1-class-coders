@@ -1,4 +1,4 @@
-.wrapper {
+.footer__wrapper {
     display: grid;
     grid-template-columns: 1fr 145px 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -50,7 +50,7 @@
 }
 
 @media all and (min-width:768px) {
-    .wrapper {
+    .footer__wrapper {
         box-sizing: border-box;
         height: 170px;
         width: 100%;
@@ -90,7 +90,7 @@
 }
 
 @media all and (min-width: 1200px) {
-    .wrapper {
+    .footer__wrapper {
         height: 161px;
         padding: 0 138px;
     }
