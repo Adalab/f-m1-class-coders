@@ -1,5 +1,5 @@
 .hero__image {
-    background-image: url(../../images/hero_grupo2.jpg) ;
+    background-image: url(../images/hero_grupo2.jpg) ;
     height: 316px;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,9 +32,9 @@
 }
 
 @media all and (min-width:768px) {
-    .claim {
+    .hero__claim {
         opacity: 0.8;
-        width: 400px;
+        width: 441px;
         height: 80px; 
         text-align: left;
         transform: translateY(0px);

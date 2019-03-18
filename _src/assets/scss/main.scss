@@ -8,23 +8,23 @@ main {
 
 
 /* <------------- HEADER -------------> */
-    @import '_header.scss';
+    @import 'core/header';
 
 
 /* <------------- HERO -------------> */
-    @import '_hero.scss';
+    @import 'core/hero';
 
 /* <------------- TEAM -------------> */
-    @import '_team.scss';
+    @import 'core/team';
 
 /*En TEAM van a salir muchos fallos porque había varias secciones con el mismo
 nombre que han pasado a llamarse de forma distinta*/ 
 
 /* <------------- PEOPLE -------------> */
-    @import '_people.scss';
+    @import 'core/people';
 
 /* <------------- FOOTER -------------> */
-    @import '_footer.scss';
+    @import 'core/footer';
 
 
 /* < MEDIA QUERIES */

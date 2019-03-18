@@ -1,4 +1,4 @@
-h2 {
+.team__title {
     font-family: 'Rubik';
     font-size: 24px;
     font-weight: 500;
@@ -54,7 +54,7 @@ h2 {
     }
 
 }
-.team__strenghts__title {
+.team__characteristics-title {
     width: 290px;
     height: 45px;
     font-family: 'Rubik';
@@ -67,10 +67,19 @@ h2 {
     text-align: center;
     color: #099d8d;
     margin: 0;
-    
-
 }
-.team__strenghts {
+.team__strengths {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @media all and (min-width: 768px) {
+        width: 50%;
+        padding-top: 5px;
+    }   
+}
+
+.team__weaknesses {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,17 +88,15 @@ h2 {
         width: 50%;
         padding-top: 5px;
     }
-   
 }
-
-.team__weaknesses__title {
+.team__characteristics-title {
     margin-top: 20px;
     @media all and (min-width: 768px) {
         margin-top: 0;
     }
 
 }
-.team__characteristics p {
+.team__characteristics .team__text {
     margin-top: 0;
 }
 
