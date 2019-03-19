@@ -34,12 +34,18 @@
     box-sizing: border-box;
     padding: 8px 17px 7px 16px;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     height: 45px;
     opacity: 0.9;
     background-color: #14d9c4;
     margin: 0;
+}
+.header__menu__item {
+    box-sizing: border-box;
+}
+.header__menu__item + .header__menu__item {
+    padding-left: 15px;
 }
 .header__menu__item__link a {
     color: white;
@@ -76,13 +82,17 @@
     }
     .header__menu__list {
         display:flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
         background: #099d8d;
         padding: 0;
     }
     .header__menu__item {
         padding: 9px;
         
+    }
+    .header__menu__item + .header__menu__item {
+        padding-left: 17px;
     }
 }
 
@@ -106,5 +116,8 @@
     }
     .header__menu__item {
         padding: 9px;
+    }
+    .header__menu__item + .header__menu__item {
+        padding-left: 18px;
     }
 }
