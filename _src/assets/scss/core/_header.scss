@@ -1,4 +1,10 @@
 /* header */
+.header__accesibility {
+    display: hidden; 
+}
+:focus {
+    outline: 4px solid greenyellow;
+}
 .header {
     justify-content: space-between;
     flex-wrap: wrap; 
