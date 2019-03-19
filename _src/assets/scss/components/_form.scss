@@ -1,7 +1,7 @@
 .page__contact {
-    width: 320px;
     margin: 0;
 }
+
 
 .contact__hero__image {
     background-image: url(../images/contact.jpeg) ;
@@ -15,6 +15,14 @@
     width: 100%;
 }
 
+.wrapper__contact {
+    margin: 0 15px;
+    @media all and (min-width: 768px) {
+        margin: 0 163px;
+    }
+}
+
+
 .contact__title {
     height: 45px;
     font-family: 'Rubik', sans-serif;
@@ -23,8 +31,18 @@
     line-height: 1.88;
     color: #099d8d;
     text-align: center;
-    padding: 20px 0 20px 0;
+    padding: 0;
     text-transform: uppercase;
+    margin: 0;
+    margin-top: 30px;
+
+}
+
+.contact__info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
 }
 
 .contact__text {
@@ -33,24 +51,27 @@
     line-height: 24px;
     color: #54585a;
     text-align: center;
-    margin-top: 15px;
-    padding: 0 15px;
+    padding: 0;
     line-height: 1.5;
+    margin-top: 15px;
 }
 
 .contact__sub__text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    color: #54585a;
     text-align: center;
+    margin-bottom: 58px;
 }
 
 /*Formulario*/
-
-.contact {
-    width: 290px;
-    height: 100vh;
-  }
-
   .star {
       color: #14d9c4;
+  }
+
+  .contact {
+      
   }
 
   .contact__label {
@@ -59,96 +80,62 @@
       font-family: OpenSans;
       font-family: OpenSans;
       font-size: 14px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
       color:#54585a;
-    
+      display: block;
     }
-  .contact__label__name{
-      width: 131px;
-      margin-bottom: 7px;
-      font-family: OpenSans;
-      font-size: 14px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      color:#54585a;
-
-  }
-
-  .contact__label__email{
-    width: 48px;
-    margin-bottom: 7px;
-    font-family: OpenSans;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color:#54585a;
-}
-
-.contact__label__number{
-    width: 57px;
-    margin-bottom: 7px;
-    font-family: OpenSans;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color:#54585a
-}
-
+  
 .contact__label__textarea{
-    width: 67px;
-    margin-bottom: 7px;
     font-family: OpenSans;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color:#54585a
 }
+
 .contact__button {
-    width: 290px;
     height: 45px;
     
 }
 
 .contact__input {
-    width: 290px;
     height: 45px;
     margin-bottom: 13px;
     font-family: OpenSans;
     font-size: 14px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #b8b8b9;
     border: solid 1px #b8b8b9;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
 }
 
 .contact__button {
-    width: 290px;
     height: 45px;
     margin-bottom: 30px
 }
+.contact-submit {
+    @media all and (min-width: 768px) {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
 
 .contact__button__submit {
-    width: 290px;
     height: 45px;
     border-radius: 4px;
     background-color: #099d8d;
+    margin-top: 17px;
+    width: 100%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'OpenSans';
+    font-size: 16px;
+    font-weight: 600;
+    @media all and (min-width: 768px) {
+        width: 206px;
+    }
+
+}
+#comments {
+    height: 105px;
 }

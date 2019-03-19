@@ -12,39 +12,40 @@
     <section class="contact__hero">
         <div class="contact__hero__image"></div>
     </section>
-
-            <h1 class="contact__title">Contacto</h1>
-            <p class="contact__text">Lorem ipsum dolor sit amet, officiis expedita iste tempore, quod excepturi sapiente soluta ex!</p>
-            <p class="contact__sub__text">Todos los campos marcados con <span class="star">*</span> son obligatorios</p>
-    <div class="contact__form">
-        <fieldset>
-            <form action="" method="post">
-                <div class="contact">
-                    <div class="contact__name">
-                        <label class="contact__label__name" for="fullName">Nombre completo <span class="star">*</span></label>
+        <div class="wrapper__contact">
+            <h1 class="contact__title"><strong>Contacto</strong></h1>
+            <div class="contact__info">
+                <p class="contact__text">Lorem ipsum dolor sit amet, officiis expedita iste tempore, quod excepturi sapiente soluta ex!</p>
+                <p class="contact__sub__text">Todos los campos marcados con <span class="star">*</span> son obligatorios</p>
+            </div>
+            <div class="contact__form">
+                <form action="" method="post">
+                
+                    <div class="contact">
+                        <label class="contact__label name" for="fullName">Nombre completo <span class="star">*</span></label>
                         <input class="contact__input" type="text" id="fullName" name="fullName" placeholder="Nombre..." tabindex="0" required/>
                     </div>
                 
-                    <div class="contact__email">
-                        <label class="contact__label__email" for="email">Email <span class="star">*</span></label>
+                    <div class="contact">
+                        <label class="contact__label email" for="email">Email<span class="star">*</span></label>
                         <input class="contact__input" type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" tabindex="0" required/>
                     </div>
                 
-                    <div class="contact__number">
-                        <label class="contact__label__number" for="telephone">Teléfono</label>
-                        <input class="contact__input" type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" tabindex="0" required/>
+                    <div class="contact">
+                        <label class="contact__label number" for="telephone">Teléfono</label>
+                        <input class="contact__input" type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" tabindex="0"/>
                     </div>
                 
-                    <div class="contact__texarea">
-                        <label class="contact__label__textarea" for="comments">Mensaje<span class="star">*</span></label>
-                        <textarea id="comments" name="comments" rows="8" cols="45"></textarea>
+                    <div class="contact">
+                        <label class="contact__label textarea" for="comments">Mensaje <span class="star">*</span></label>
+                        <textarea class="contact__input" id="comments" name="comments" rows="8" cols="45"></textarea>
                     </div>
-                    <div class="contact__button">
+                    <div class="contact-submit">
                         <button class="contact__button__submit" type="submit" value="submit">Enviar</button>
                     <div>
                 </div>
-            </form>
-        </fieldset>
-    </div>
+                </form>
+            </div>
+        </div>
 </body>
 </html>
