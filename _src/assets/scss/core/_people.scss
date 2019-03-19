@@ -79,6 +79,13 @@
 .people__list__social i {
     color: #099d8d;
     margin: 0 10px;
+    display: inline-block;
+    transition: color ease 0.2s, transform ease-out 0.2s;
+    
+    &:hover {
+        color: black;
+        transform: scale(1.2);
+    }
 }
  
 .people__shared { 

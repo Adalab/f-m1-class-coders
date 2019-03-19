@@ -41,6 +41,12 @@
     font-weight: 600;
     line-height: 1.43;
     color: #54585a;
+    display: inline-block;
+    transition: ease-in 0.1s;
+
+    &:hover {
+        transform: scale(1.2);
+    }
 }
 .footer__logo {
     grid-column: 2 / 3;
