@@ -32,3 +32,30 @@ nombre que han pasado a llamarse de forma distinta*/
     /*REVISAR LAS MEDIA Y VER SI ESTÁN BIEN DONDE ESTÁN*/
 
 
+<<<<<<< HEAD
+=======
+    .comun:nth-child(2n) .info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+     
+    footer {
+        height: 161px;
+    }
+    .footer_menu {
+        margin-right: 138px;
+        margin-bottom: 47px;
+    }
+    .copyright {
+        margin-left: 138px;
+        margin-bottom: 15px;
+    }
+    .logo_bottom {
+        margin-top: 0;
+        top: 65px;
+      left: 138px;
+    }
+}
+@import "components/form";
+>>>>>>> contact-form
