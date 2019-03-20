@@ -23,7 +23,6 @@ main {
         background:  #099d8d;
         position: fixed;
         z-index: 3;
-
     }
 }
 .wrapper {
@@ -48,19 +47,12 @@ main {
 /* <------------- TEAM -------------> */
     @import 'core/team';
 
-/*En TEAM van a salir muchos fallos porque había varias secciones con el mismo
-nombre que han pasado a llamarse de forma distinta*/ 
-
 /* <------------- PEOPLE -------------> */
     @import 'core/people';
 
 /* <------------- FOOTER -------------> */
     @import 'core/footer';
 
-
-/* < MEDIA QUERIES */
-
-    /*REVISAR LAS MEDIA Y VER SI ESTÁN BIEN DONDE ESTÁN*/
 
 
     .comun:nth-child(2n) .info {
