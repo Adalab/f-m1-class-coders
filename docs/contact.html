@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <title>Document</title>
+    </head>
+    
+    <body class="page__contact">
+        <section class="contact__hero">
+            <div class="contact__hero__image"></div>
+        </section>
+        <div class="wrapper__contact">
+             <h1 class="contact__title">Contacto</h1>
+
+            <div class="contact__info">
+                <p class="contact__text">En Class-Coders estamos a tu disposición para facilitarte la información
+                    que necesites y poder hacer realidad tu próximo proyecto. ¿Nos lo cuentas?</p>
+                <p
+                class="contact__sub__text">Todos los campos marcados con <span class="star">*</span> son obligatorios</p>
+            </div>
+            <div class="contact__form">
+                <form action="" method="post">
+                    <div class="contact">
+                        <label class="contact__label name" for="fullName">Nombre completo <span class="star">*</span>
+                        </label>
+                        <input class="contact__input" type="text" id="fullName" name="fullName"
+                        placeholder="Nombre..." tabindex="0" required/>
+                    </div>
+                    <div class="contact__box">
+                        <div class="contact">
+                            <label class="contact__label" for="email">Email <span class="star">*</span>
+                            </label>
+                            <input class="contact__input" type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com"
+                            tabindex="0" required/>
+                        </div>
+                        <div class="contact">
+                            <label class="contact__label number" for="telephone">Teléfono</label>
+                            <input class="contact__input" type="tel" id="telephone"
+                            name="telephone" placeholder="Ej: 123456789" tabindex="0" />
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <label class="contact__label textarea" for="comments">Mensaje <span class="star">*</span>
+                        </label>
+                        <textarea class="contact__input" id="comments" name="comments" rows="8"
+                        cols="45"></textarea>
+                    </div>
+                    <div class="contact-submit">
+                        <button class="contact__button__submit" type="submit" value="submit">Enviar</button>
+                        <div></div>
+                </form>
+                </div>
+            </div>
+    </body>
+
+</html>
