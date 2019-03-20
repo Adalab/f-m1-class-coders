@@ -5,7 +5,17 @@ body {
 main {
     margin: 0;
 }
-
+.wrapper {
+    box-sizing: border-box;
+    margin: 0 15px;
+    @media all and (min-width: 768px) {
+        margin: 0 45px;
+    }
+    @media all and (min-width: 1200px) {
+        margin: 0 auto;
+        max-width: 924px;
+    }
+}
 
 /* <------------- HEADER -------------> */
     @import 'core/header';
