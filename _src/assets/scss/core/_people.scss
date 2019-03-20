@@ -91,7 +91,10 @@
 .people__shared { 
     padding-bottom: 50px; 
 }
- 
+
+.people__list__social__twitter:hover{
+    transform: scale(10);
+}
 
 @media all and (min-width: 768px) {
     .people__shared {

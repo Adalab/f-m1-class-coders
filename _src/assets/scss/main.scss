@@ -6,6 +6,37 @@ main {
     margin: 0;
 }
 
+*:focus {
+    outline: 3px solid #341f97;
+}
+.header__accesibility {
+    display: block;
+    width: 0;
+    height: 0;
+    &:focus {
+        width: 110px;
+        height: auto;
+        border: 2px solid #341f97;
+        color: white;
+        text-decoration: none;
+        font-family: 'Rubik';
+        background:  #099d8d;
+        position: fixed;
+        z-index: 3;
+
+    }
+}
+.wrapper {
+    box-sizing: border-box;
+    margin: 0 15px;
+    @media all and (min-width: 768px) {
+        margin: 0 45px;
+    }
+    @media all and (min-width: 1200px) {
+        margin: 0 auto;
+        max-width: 916px;
+    }
+}
 
 /* <------------- HEADER -------------> */
     @import 'core/header';

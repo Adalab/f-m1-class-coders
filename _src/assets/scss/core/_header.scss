@@ -1,4 +1,10 @@
 /* header */
+.header__accesibility {
+    display: hidden; 
+}
+
+
+
 .header {
     justify-content: space-between;
     flex-wrap: wrap; 
@@ -12,16 +18,12 @@
     margin: none;
     position: fixed;
     width: 100%;
-    z-index: 999;
+    z-index: 1;
 }
 .header__title {
     text-align: center;
-    padding: 15px 80px 15px 80px;
     font-size: 16px;
     font-weight: 500;
-    font-style: normal;
-    font-stretch: normal;
-    letter-spacing: normal;
     line-height: 1.88;
     color: #ffffff;
     font-family: 'Rubik';
