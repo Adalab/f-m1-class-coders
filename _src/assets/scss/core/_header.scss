@@ -3,8 +3,6 @@
     display: hidden; 
 }
 
-
-
 .header {
     justify-content: space-between;
     flex-wrap: wrap; 
@@ -52,7 +50,7 @@
 .header__menu__item__link a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bolder;
     display: inline-block;
     transition: color ease 0.1s, transform ease-in 0.1s;
 
