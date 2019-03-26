@@ -5,4 +5,4 @@
 Somos class_coders>> y esta es la web que hemos realizado por encargo para Adalab. 
 
 ## Authors
-* Ana María Romero - [a link](https://github.com/superanika)
+* Ana María Romero - [github](https://github.com/superanika)
